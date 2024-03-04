@@ -2,6 +2,10 @@ import React from 'react'
 
 export const MyModalButton = () => {
   return (
-    <button>Modal</button>
+    <>
+    <h2>This is my modal</h2>
+    <button>open Modal</button>
+    </>
+    
   )
 }
