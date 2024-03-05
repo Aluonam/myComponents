@@ -1,8 +1,25 @@
 
-
+ 
 .modalAllSCreenContainer{
     width: 100vw;
     height: 100vh;
     background-color: rgba(87, 86, 84, 0.193);
     position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.modalChildrenContainer{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
 }

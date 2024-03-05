@@ -16,7 +16,7 @@ const MyModalButton = () => {
     <button onClick={()=>{canClose()}}>open modal</button>
     {showModal && (
       <div className={styleModal.modalAllSCreenContainer}>
-        <div></div>
+        <div className={styleModal.modalChildrenContainer}></div>
       </div>
     )}
     </>
