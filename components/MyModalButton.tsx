@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import styleModal from  './styleModalColor.module.css'
 
 const MyModalButton = () => {
 
@@ -10,7 +11,7 @@ const MyModalButton = () => {
     <>
     <button>open modal</button>
     {showModal && (
-      <div>
+      <div className={styleModal.modalAllSCreenContainer}>
         <div></div>
       </div>
     )}
