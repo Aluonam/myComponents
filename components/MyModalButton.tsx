@@ -6,10 +6,14 @@ const MyModalButton = () => {
   
   const [showModal, setShowModal] = useState<boolean>(false)
 
+  const [canBeClose, setCanBeClose] = useState<boolean>(true)
   
+  const canClose = ()=>{
+    canBeClose && setShowModal(!showModal)
+  }
   return (
     <>
-    <button>open modal</button>
+    <button onClick={()=>{canClose()}}>open modal</button>
     {showModal && (
       <div className={styleModal.modalAllSCreenContainer}>
         <div></div>
