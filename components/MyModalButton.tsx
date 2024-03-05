@@ -11,12 +11,17 @@ const MyModalButton = () => {
   const canClose = ()=>{
     canBeClose && setShowModal(!showModal)
   }
+   
   return (
     <>
     <button onClick={()=>{canClose()}}>open modal</button>
     {showModal && (
-      <div className={styleModal.modalAllSCreenContainer}>
-        <div className={styleModal.modalChildrenContainer}></div>
+      <div className={styleModal.modalAllScreenContainer} onClick={canClose}>
+        <div 
+          className={styleModal.modalChildrenContainer}
+          onMouseEnter={()=>{setCanBeClose(false)}}
+          onMouseLeave={()=>{setCanBeClose(true)}}
+        ></div>
       </div>
     )}
     </>
