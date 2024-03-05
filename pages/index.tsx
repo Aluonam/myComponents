@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <MyModalButton witdh={"200px"} height={"300px"} children={"texto del children"}></MyModalButton>
+        <MyModalButton children={"texto del children"}></MyModalButton>
       </main>
     </>
   );

@@ -2,12 +2,12 @@ import React, { ReactNode, useState } from 'react'
 import styleModal from './styleModalColor.module.css'
 
 type PrototypeModalProperties = {
-  witdh: string;
-  height: string;
+  witdh?: number;
+  height?: number;
   children: ReactNode;
 }
 
-const MyModalButton = ( {witdh= "300px", height= "200px", children,}: PrototypeModalProperties) => {
+const MyModalButton = ( {witdh= 300, height= 200, children,}: PrototypeModalProperties) => {
 
   const [showModal, setShowModal] = useState<boolean>(false)
 
@@ -26,7 +26,7 @@ const MyModalButton = ( {witdh= "300px", height= "200px", children,}: PrototypeM
             className={styleModal.modalChildrenContainer}
             onMouseEnter={() => { setCanBeClose(false) }}
             onMouseLeave={() => { setCanBeClose(true) }}
-            style={{width:witdh, height:height}}
+            style={{width:witdh + "px", height:height + "px"}}
           >{children}</div>
         </div>
       )}
