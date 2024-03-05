@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-export const MyModalButton = () => {
+const MyModalButton = () => {
+
+  
+  const [showModal, setShowModal] = useState<boolean>(false)
+
+  
   return (
     <>
-    <h2>This is my modal</h2>
-    <button>open Modal</button>
+    <button>open modal</button>
+    {showModal && (
+      <div>
+        <div></div>
+      </div>
+    )}
     </>
-    
   )
 }
+
+export default MyModalButton
