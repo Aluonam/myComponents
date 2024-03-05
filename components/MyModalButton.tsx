@@ -27,7 +27,7 @@ const MyModalButton = ( {witdh= "300px", height= "200px", children,}: PrototypeM
             onMouseEnter={() => { setCanBeClose(false) }}
             onMouseLeave={() => { setCanBeClose(true) }}
            
-          ></div>
+          >{children}</div>
         </div>
       )}
     </>
