@@ -1,0 +1,41 @@
+
+
+.boxForm{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(129, 166, 229, 0.53);
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.personalDataBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* margin: 20px; */
+    width: 100%;
+    justify-content: space-around
+}
+
+.medicalDataBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.nameBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.dateDataBox{
+    display: flex;
+    flex-direction: column;
+}
