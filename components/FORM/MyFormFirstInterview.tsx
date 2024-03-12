@@ -36,20 +36,33 @@ const MyFormFirstInterview = () => {
                <label>Motivo de consulta</label>
                <textarea></textarea>
             </div>
-            <div>
+            <div className={styleMyForm.ocupationalDataBox}>
+                
                 <h4>Áreas de ocupación</h4>
-                <label>Actividades de la Vida Diaria AVD</label>
-                <input type='checkbox'></input>
-                <label>Actividades Instrumentales de la Vida diaria AIVD</label>
-                <input type='checkbox'></input>
-                <label>Descanso y Sueño</label>
-                <input type='checkbox'></input>
-                <label>Educación</label>
-                <input type='checkbox'></input>
-                <label>Juego</label>
-                <input type='checkbox'></input>
-                <label>Participación Social</label>
-                <input type='checkbox'></input>
+                <div>
+                    <label>Actividades de la Vida Diaria AVD</label>
+                    <input type='checkbox'></input>
+                </div>
+                <div>
+                    <label>Actividades Instrumentales de la Vida diaria AIVD</label>
+                    <input type='checkbox'></input>
+                </div>
+                <div>
+                    <label>Descanso y Sueño</label>
+                    <input type='checkbox'></input>
+                </div>
+                <div>
+                    <label>Educación</label>
+                    <input type='checkbox'></input>
+                </div>
+                <div>
+                    <label>Juego</label>
+                    <input type='checkbox'></input>
+                </div>
+                <div>
+                    <label>Participación Social</label>
+                    <input type='checkbox'></input>
+                </div>
             </div>
         </form>
 

@@ -17,7 +17,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    /* margin: 20px; */
+    
     width: 100%;
     justify-content: space-around
 }
@@ -27,7 +27,15 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    margin: 20px;
+    margin-left: 20px;
+}
+
+.ocupationalDataBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
 }
 
 .nameBox{
