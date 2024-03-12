@@ -7,7 +7,9 @@ const MyFormFirstInterview = () => {
         
         <form className={styleMyForm.boxForm}>
         <h3>Formulario entrevista inicial</h3>
+            
             <div className={styleMyForm.personalDataBox}>
+            <h4>Datos iniciales</h4>
                 <div className={styleMyForm.nameBox}>
                     <label>Nombre</label>
                     <input type='text'></input> 
@@ -26,14 +28,29 @@ const MyFormFirstInterview = () => {
                 </div>
             </div>
             <div className={styleMyForm.medicalDataBox}>
+                <h4>Antecedentes y  motivo de consulta</h4>
                <label>Diagnóstico</label>
                <input type='text'></input> 
-               <label>Motivo de consulta</label>
-               <input type='text'></input> 
                <label>Historial previo</label>
-               <input type='text'></input> 
+               <textarea></textarea>
+               <label>Motivo de consulta</label>
+               <textarea></textarea>
             </div>
-            
+            <div>
+                <h4>Áreas de ocupación</h4>
+                <label>Actividades de la Vida Diaria AVD</label>
+                <input type='checkbox'></input>
+                <label>Actividades Instrumentales de la Vida diaria AIVD</label>
+                <input type='checkbox'></input>
+                <label>Descanso y Sueño</label>
+                <input type='checkbox'></input>
+                <label>Educación</label>
+                <input type='checkbox'></input>
+                <label>Juego</label>
+                <input type='checkbox'></input>
+                <label>Participación Social</label>
+                <input type='checkbox'></input>
+            </div>
         </form>
 
 
