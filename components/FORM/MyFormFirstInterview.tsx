@@ -14,7 +14,7 @@ const MyFormFirstInterview = () => {
                     <label>Nombre</label>
                     <input type='text' id='nameFormTest'></input> 
                     <label>Apellidos</label>
-                    <input type='text'></input> 
+                    <input type='text' id='lastNameFormTest'></input> 
                     <label>Familiares</label>
                     <input type='text'></input> 
                 </div>
