@@ -21,4 +21,10 @@ describe('example to-do app', () => {
         cy.get('#lastNameFormTest').should('have.value', 'smith')   
     })
 
+    it('existe label familiares, input asociado y escribe input', ()=>{
+        cy.contains('Familiares').should('exist')
+        cy.get('#familyContactFormTest').type('macarena, manolo')
+        cy.get('#familyContactFormTest').should('have.value', 'macarena, manolo')   
+    })
+
 })  

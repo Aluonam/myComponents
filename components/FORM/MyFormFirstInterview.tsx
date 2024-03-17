@@ -16,7 +16,7 @@ const MyFormFirstInterview = () => {
                     <label>Apellidos</label>
                     <input type='text' id='lastNameFormTest'></input> 
                     <label>Familiares</label>
-                    <input type='text'></input> 
+                    <input type='text' id='familyContactFormTest'></input> 
                 </div>
                 <div className={styleMyForm.dateDataBox}> 
                     <label>Fecha de nacimiento</label>
