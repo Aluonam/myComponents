@@ -1,8 +1,7 @@
 
-
 .boxForm{
     width: 600px;
-    height: 600px;
+    height: 650px;
     background-color: rgba(129, 166, 229, 0.53);
     border-radius: 20px;
     display: flex;
@@ -10,6 +9,14 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 20px;
+    
+}
+.titleBoxForm{
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .personalDataBox{
@@ -17,9 +24,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    
     width: 100%;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .medicalDataBox{
@@ -46,4 +52,8 @@
 .dateDataBox{
     display: flex;
     flex-direction: column;
+}
+
+.titlePersonalData{
+    padding-left: 20px;
 }

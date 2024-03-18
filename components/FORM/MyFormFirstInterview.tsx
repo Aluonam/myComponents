@@ -3,20 +3,20 @@ import styleMyForm from './MyFormFirstInterview.module.css'
 
 const MyFormFirstInterview = () => {
   return (
-    <div>
+    <>
         
         <form className={styleMyForm.boxForm}>
-        <h3>Formulario entrevista inicial</h3>
+        <h3 className={styleMyForm.titleBoxForm}>Formulario entrevista inicial</h3>
             
+            <h4 className={styleMyForm.titlePersonalData}>Datos iniciales</h4>
             <div className={styleMyForm.personalDataBox}>
-            <h4>Datos iniciales</h4>
                 <div className={styleMyForm.nameBox}>
                     <label>Nombre</label>
-                    <input type='text'></input> 
+                    <input type='text' id='nameFormTest'></input> 
                     <label>Apellidos</label>
-                    <input type='text'></input> 
+                    <input type='text' id='lastNameFormTest'></input> 
                     <label>Familiares</label>
-                    <input type='text'></input> 
+                    <input type='text' id='familyContactFormTest'></input> 
                 </div>
                 <div className={styleMyForm.dateDataBox}> 
                     <label>Fecha de nacimiento</label>
@@ -28,7 +28,7 @@ const MyFormFirstInterview = () => {
                 </div>
             </div>
             <div className={styleMyForm.medicalDataBox}>
-                <h4>Antecedentes y  motivo de consulta</h4>
+               <h4>Antecedentes y  motivo de consulta</h4>
                <label>Diagnóstico</label>
                <input type='text'></input> 
                <label>Historial previo</label>
@@ -65,10 +65,7 @@ const MyFormFirstInterview = () => {
                 </div>
             </div>
         </form>
-
-
-
-    </div>
+    </>
   )  
 }
 
